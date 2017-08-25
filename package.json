@@ -11,7 +11,7 @@
     "clean": "rimraf dist",
     "lint": "eslint src test",
     "check": "npm run lint -s && dependency-check package.json --entry src",
-    "watch": "watch 'npm run build' src test",
+    "watch": "watch \"npm run build\" src test",
     "test": "babel-node test/index.js | tspec",
     "prebuild": "npm run check -s && npm run clean -s",
     "build": "babel --optional runtime src -d dist",
