@@ -1,3 +1,6 @@
+
+<big><h1 align="center">WORK IN PROGRESS PLEASE IGNORE</h1></big>
+
 <big><h1 align="center">feathersjs-mongoose-i18n-slugs</h1></big>
 
 <p align="center">
